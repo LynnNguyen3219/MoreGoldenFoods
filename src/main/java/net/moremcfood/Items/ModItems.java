@@ -16,9 +16,16 @@ import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood()
+    public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT_1 = Consumables.defaultFood()
             // The duration is in ticks, 20 ticks = 1 second
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1, true, true, true), 1.0f))
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 0, true, true, true), 1.0f))
+            .build();
+
+    public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT_2 = Consumables.defaultFood()
+            // The duration is in ticks, 20 ticks = 1 second
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 2400, 2, true, true, true), 1.0f))
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 1, true, true, true), 1.0f))
             .build();
 
     public static final Item GOLDEN_CHICKEN = register(ModItemIds.GOLDEN_CHICKEN, Item::new, new Item.Properties().food(new FoodProperties.Builder()
@@ -26,7 +33,7 @@ public class ModItems {
             .saturationModifier(0.75f)
             .alwaysEdible()
             .build(),
-            GOLDEN_FOOD_CONSUMABLE_COMPONENT
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
     ));
 
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
@@ -42,7 +49,7 @@ public class ModItems {
     public static void initialize() {
         // Get the event for modifying entries in the ingredients group.
         // And register an event handler that adds our suspicious item to the ingredients group.
-        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS)
                 .register((creativeTab) -> creativeTab.accept(ModItems.GOLDEN_CHICKEN));
     }
 }
