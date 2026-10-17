@@ -7,6 +7,8 @@ import net.moremcfood.MoreMCFood;
 
 public class ModItemIds {
     public static final ResourceKey<Item> GOLDEN_CHICKEN = create("golden_chicken");
+    public static final ResourceKey<Item> GOLDEN_STEAK = create("golden_steak");
+    public static final ResourceKey<Item> GOLDEN_PORKCHOP = create("golden_porkchop");
 
     public static ResourceKey<Item> create(String name) {
         // Create the item key.

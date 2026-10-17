@@ -33,6 +33,22 @@ public class ModItems {
             .saturationModifier(0.75f)
             .alwaysEdible()
             .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
+    public static final Item GOLDEN_STEAK = register(ModItemIds.GOLDEN_STEAK, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.85f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
+    ));
+
+    public static final Item GOLDEN_PORKCHOP = register(ModItemIds.GOLDEN_PORKCHOP, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.85f)
+                    .alwaysEdible()
+                    .build(),
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
     ));
 
@@ -50,6 +66,9 @@ public class ModItems {
         // Get the event for modifying entries in the ingredients group.
         // And register an event handler that adds our suspicious item to the ingredients group.
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FOOD_AND_DRINKS)
-                .register((creativeTab) -> creativeTab.accept(ModItems.GOLDEN_CHICKEN));
-    }
-}
+                .register((creativeTab) -> {
+                    creativeTab.accept(ModItems.GOLDEN_CHICKEN);
+                    creativeTab.accept(ModItems.GOLDEN_STEAK);
+                    creativeTab.accept(ModItems.GOLDEN_PORKCHOP);
+                });
+    }}
