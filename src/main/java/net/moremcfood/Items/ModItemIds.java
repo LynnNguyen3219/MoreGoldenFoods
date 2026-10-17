@@ -6,7 +6,7 @@ import net.minecraft.world.item.Item;
 import net.moremcfood.MoreMCFood;
 
 public class ModItemIds {
-    public static final ResourceKey<Item> SUSPICIOUS_SUBSTANCE = create("suspicious_substance");
+    public static final ResourceKey<Item> GOLDEN_CHICKEN = create("golden_chicken");
 
     public static ResourceKey<Item> create(String name) {
         // Create the item key.

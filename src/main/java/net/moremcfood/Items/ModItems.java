@@ -4,13 +4,30 @@ import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.component.Consumable;
+import net.minecraft.world.item.component.Consumables;
+import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
 
 import java.util.function.Function;
 
 public class ModItems {
-    public static final Item SUSPICIOUS_SUBSTANCE = register(ModItemIds.SUSPICIOUS_SUBSTANCE, Item::new, new Item.Properties());
+    public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT = Consumables.defaultFood()
+            // The duration is in ticks, 20 ticks = 1 second
+            .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1, true, true, true), 1.0f))
+            .build();
+
+    public static final Item GOLDEN_CHICKEN = register(ModItemIds.GOLDEN_CHICKEN, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+            .nutrition(6)
+            .saturationModifier(0.75f)
+            .alwaysEdible()
+            .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT
+    ));
 
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create the item instance.
@@ -26,6 +43,6 @@ public class ModItems {
         // Get the event for modifying entries in the ingredients group.
         // And register an event handler that adds our suspicious item to the ingredients group.
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
-                .register((creativeTab) -> creativeTab.accept(ModItems.SUSPICIOUS_SUBSTANCE));
+                .register((creativeTab) -> creativeTab.accept(ModItems.GOLDEN_CHICKEN));
     }
 }

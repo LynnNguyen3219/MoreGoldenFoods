@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "minecraft:dropped": {
+      "moremcfood:suspicious_substance": 1
+    },
+    "minecraft:picked_up": {
+      "moremcfood:suspicious_substance": 1
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 205,
+      "minecraft:walk_one_cm": 1860,
+      "minecraft:total_world_time": 337,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 94,
+      "minecraft:sneak_time": 14,
+      "minecraft:play_time": 205,
+      "minecraft:time_since_death": 205,
+      "minecraft:drop": 1
+    }
+  },
+  "DataVersion": 4903
+}

@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 216,
+      "minecraft:walk_one_cm": 1299,
+      "minecraft:total_world_time": 216,
+      "minecraft:leave_game": 1,
+      "minecraft:sneak_time": 5,
+      "minecraft:play_time": 216,
+      "minecraft:time_since_death": 216
+    },
+    "minecraft:used": {
+      "moremcfood:golden_chicken": 3
+    }
+  },
+  "DataVersion": 4903
+}

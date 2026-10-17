@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 458,
+      "minecraft:time_since_rest": 725,
+      "minecraft:walk_one_cm": 3735,
+      "minecraft:total_world_time": 725,
+      "minecraft:fly_one_cm": 180,
+      "minecraft:crouch_one_cm": 121,
+      "minecraft:sneak_time": 20,
+      "minecraft:play_time": 725,
+      "minecraft:jump": 2,
+      "minecraft:time_since_death": 725
+    },
+    "minecraft:used": {
+      "moremcfood:golden_chicken": 4
+    }
+  },
+  "DataVersion": 4903
+}

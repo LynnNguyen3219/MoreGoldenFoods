@@ -1,1 +1,19 @@
 /give @s moremcfood:suspicious_substance
+/gamemode survival
+/gamemode c
+/gamemode creative
+/data modify entity @s FoodLevel set value 10
+/gamemode s
+/gamemode survival
+/data modify entity @s FoodLevel set value 20
+/data modify entity @s FoodLevel set value 15
+/data modify entity @s FoodLevel set value 10
+/effect give @s minecraft:hunger 5 20 true
+/time set
+/time set minecraft:day
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival

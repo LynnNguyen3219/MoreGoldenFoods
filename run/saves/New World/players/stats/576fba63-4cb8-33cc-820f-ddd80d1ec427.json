@@ -1,0 +1,24 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 1341,
+      "minecraft:walk_one_cm": 1605,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 70,
+      "minecraft:play_time": 1341,
+      "minecraft:damage_absorbed": 40,
+      "minecraft:jump": 49,
+      "minecraft:time_since_death": 1341,
+      "minecraft:sprint_one_cm": 3765,
+      "minecraft:fall_one_cm": 3300,
+      "minecraft:total_world_time": 1349,
+      "minecraft:fly_one_cm": 10461,
+      "minecraft:crouch_one_cm": 125,
+      "minecraft:sneak_time": 17
+    },
+    "minecraft:used": {
+      "moremcfood:golden_chicken": 1
+    }
+  },
+  "DataVersion": 4903
+}
