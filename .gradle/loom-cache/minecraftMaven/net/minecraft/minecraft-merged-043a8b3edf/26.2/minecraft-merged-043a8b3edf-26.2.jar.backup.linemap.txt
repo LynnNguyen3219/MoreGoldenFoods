@@ -232649,8 +232649,6 @@ net/minecraft/data/worldgen/BastionHoglinStablePools	164	196
 	123	146
 	124	147
 	125	148
-net/minecraft/world/entity/ConversionParams	19	8
-	19	8
 net/minecraft/world/entity/Avatar	72	67
 	64	59
 	67	62
@@ -232681,6 +232679,8 @@ net/minecraft/world/entity/Avatar	72	67
 	55	50
 	59	54
 	63	58
+net/minecraft/world/entity/ConversionParams	19	8
+	19	8
 net/minecraft/server/jsonrpc/package-info	0	0
 net/minecraft/world/scores/PlayerScores	51	45
 	35	31

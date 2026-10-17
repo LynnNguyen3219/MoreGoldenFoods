@@ -11,7 +11,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      ".moremcfood.Main"
+      "net.moremcfood.MoreMCFood"
     ]
   },
   "mixins": [
