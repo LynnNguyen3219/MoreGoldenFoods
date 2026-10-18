@@ -28,3 +28,5 @@
 /kill @a
 /gamemode survival
 /gamemode creative
+/time set minecraft:day
+/gamemode survival

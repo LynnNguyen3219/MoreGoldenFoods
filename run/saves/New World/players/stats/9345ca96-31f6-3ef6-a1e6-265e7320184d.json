@@ -1,0 +1,23 @@
+{
+  "stats": {
+    "minecraft:picked_up": {
+      "moregoldenfoods:golden_cake": 20
+    },
+    "minecraft:used": {
+      "moregoldenfoods:golden_cake": 18
+    },
+    "minecraft:mined": {
+      "moregoldenfoods:golden_cake": 20
+    },
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 800,
+      "minecraft:walk_one_cm": 5524,
+      "minecraft:total_world_time": 1083,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 800,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 800
+    }
+  },
+  "DataVersion": 4903
+}

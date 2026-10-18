@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/cake",
+  "textures": {
+    "bottom": "moregoldenfoods:block/golden_cake_bottom",
+    "top": "moregoldenfoods:block/golden_cake_top",
+    "side": "moregoldenfoods:block/golden_cake_side",
+    "inner": "moregoldenfoods:block/golden_cake_inner",
+    "particle": "moregoldenfoods:block/golden_cake_side"
+  }
+}

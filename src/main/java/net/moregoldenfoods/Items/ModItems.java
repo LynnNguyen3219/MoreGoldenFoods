@@ -12,6 +12,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.moregoldenfoods.Blocks.ModBlocks;
 
 import java.util.function.Function;
 
@@ -115,5 +116,6 @@ public class ModItems {
                     creativeTab.accept(ModItems.GOLDEN_COOKIE);
                     creativeTab.accept(ModItems.GOLDEN_PUMPKIN_PIE);
                     creativeTab.accept(ModItems.GOLDEN_BREAD);
+                    creativeTab.accept(ModBlocks.GOLDEN_CAKE.asItem());
                 });
     }}

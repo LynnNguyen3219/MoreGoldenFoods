@@ -1,0 +1,21 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "minecraft:cake": 1,
+      "moregoldenfoods:golden_cake": 9
+    },
+    "minecraft:custom": {
+      "minecraft:sprint_one_cm": 594,
+      "minecraft:time_since_rest": 1519,
+      "minecraft:walk_one_cm": 5896,
+      "minecraft:total_world_time": 3800,
+      "minecraft:fly_one_cm": 1335,
+      "minecraft:crouch_one_cm": 60,
+      "minecraft:sneak_time": 39,
+      "minecraft:play_time": 1519,
+      "minecraft:jump": 14,
+      "minecraft:time_since_death": 1519
+    }
+  },
+  "DataVersion": 4903
+}

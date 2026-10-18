@@ -2,6 +2,7 @@ package net.moregoldenfoods;
 
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.Identifier;
+import net.moregoldenfoods.Blocks.ModBlocks;
 import net.moregoldenfoods.Items.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,6 +18,7 @@ public class MoreGoldenFoods implements ModInitializer {
     @Override
     public void onInitialize() {
         ModItems.initialize();
+        ModBlocks.initialize();
         LOGGER.info("Mod loaded!");
     }
 }

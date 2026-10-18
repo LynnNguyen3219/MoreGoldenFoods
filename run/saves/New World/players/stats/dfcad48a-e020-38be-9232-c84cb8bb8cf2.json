@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:time_since_rest": 747,
+      "minecraft:walk_one_cm": 5783,
+      "minecraft:total_world_time": 1490,
+      "minecraft:crouch_one_cm": 79,
+      "minecraft:sneak_time": 37,
+      "minecraft:play_time": 747,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 747
+    },
+    "minecraft:used": {
+      "moregoldenfoods:golden_cake": 6
+    }
+  },
+  "DataVersion": 4903
+}
