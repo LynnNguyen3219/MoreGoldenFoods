@@ -20,3 +20,6 @@
 /gamemode creative
 /gamemode survival
 /gamemode creative
+/weather clear
+/time set minecraft:day
+/gamemode survival

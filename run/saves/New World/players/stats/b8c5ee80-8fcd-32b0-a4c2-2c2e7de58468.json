@@ -1,0 +1,28 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 3109,
+      "minecraft:walk_one_cm": 7235,
+      "minecraft:leave_game": 1,
+      "minecraft:damage_taken": 159,
+      "minecraft:play_time": 3109,
+      "minecraft:damage_absorbed": 120,
+      "minecraft:jump": 8,
+      "minecraft:time_since_death": 3109,
+      "minecraft:sprint_one_cm": 2113,
+      "minecraft:total_world_time": 3154,
+      "minecraft:fly_one_cm": 1765,
+      "minecraft:crouch_one_cm": 219,
+      "minecraft:sneak_time": 33
+    },
+    "minecraft:used": {
+      "moremcfood:golden_steak": 2,
+      "moremcfood:golden_chicken": 2,
+      "moremcfood:golden_rabbit": 2,
+      "moremcfood:golden_porkchop": 2,
+      "moremcfood:golden_mutton": 2
+    }
+  },
+  "DataVersion": 4903
+}
