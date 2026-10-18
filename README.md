@@ -14,6 +14,8 @@ More Golden Foods (MGF) is a mod that adds 9 new food items with similar functio
   - Golden Pumpkin Pie
   - Golden Cake
 
+<img src="images/Demo1.png">
+    
 - Absorption and Regeneration effects upon consumption, with different amplifiers and durations depending on the food
 - Ability to craft all food items
 - The ability to eat all golden food variants at any time, just like Golden Apples!
@@ -26,4 +28,4 @@ More Golden Foods (MGF) is a mod that adds 9 new food items with similar functio
    - `~/Library/Application Support/minecraft/mods` on MacOS
    - `~/.minecraft/mods` on Linux
 4. Launch Minecraft and select the Fabric profile
-5. Enjoy! :) 
+5. Enjoy! :)
