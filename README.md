@@ -29,3 +29,7 @@ More Golden Foods (MGF) is a mod that adds 9 new food items with similar functio
    - `~/.minecraft/mods` on Linux
 4. Launch Minecraft and select the Fabric profile
 5. Enjoy! :)
+
+## Credits and License
+- All assets in-game were made by me in <a href=https://www.piskelapp.com>Piskel</a>
+- License: <a href=https://github.com/LynnNguyen3219/MoreGoldenFoods/blob/main/LICENSE>The MIT License</a>
