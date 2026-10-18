@@ -52,6 +52,22 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
     ));
 
+    public static final Item GOLDEN_RABBIT = register(ModItemIds.GOLDEN_RABBIT, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.85f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
+    public static final Item GOLDEN_MUTTON = register(ModItemIds.GOLDEN_MUTTON, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(8)
+                    .saturationModifier(0.85f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create the item instance.
         Item item = itemFactory.apply(settings.setId(itemKey));
@@ -70,5 +86,7 @@ public class ModItems {
                     creativeTab.accept(ModItems.GOLDEN_CHICKEN);
                     creativeTab.accept(ModItems.GOLDEN_STEAK);
                     creativeTab.accept(ModItems.GOLDEN_PORKCHOP);
+                    creativeTab.accept(ModItems.GOLDEN_RABBIT);
+                    creativeTab.accept(ModItems.GOLDEN_MUTTON);
                 });
     }}
