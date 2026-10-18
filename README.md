@@ -22,7 +22,7 @@ More Golden Foods (MGF) is a mod that adds 9 new food items with similar functio
 
 ## Installation
 1. Install the <a href=https://fabricmc.net/use/installer/>Fabric Loader</a> and <a href=https://modrinth.com/mod/fabric-api>API</a>
-2. Install the latest version of MGF on <a href=https://modrinth.com/mod/mgf>Modrinth</a>
+2. Install the latest version of MGF on <a href=https://modrinth.com/project/dpJ7N9ZJ>Modrinth</a>
 3. Place the `.jar` file into your mods folder
    - `%appdata%/.minecraft/mods` on Windows
    - `~/Library/Application Support/minecraft/mods` on MacOS
