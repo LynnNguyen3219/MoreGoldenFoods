@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "moremcfood",
+  "id": "moregoldenfoods",
   "version": "1.0.0",
-  "name": "moremcfood",
+  "name": "More Golden Foods",
   "description": "",
   "authors": [],
   "contact": {},
@@ -11,11 +11,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.moremcfood.MoreMCFood"
+      "net.moregoldenfoods.MoreGoldenFoods"
     ]
   },
   "mixins": [
-    "moremcfood.mixins.json"
+    "moregoldenfoods.mixins.json"
   ],
   "depends": {
     "minecraft": "~26.2",

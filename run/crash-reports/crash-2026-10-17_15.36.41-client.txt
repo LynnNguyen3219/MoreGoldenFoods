@@ -4,7 +4,7 @@
 Time: 2026-10-17 15:36:41
 Description: Initializing game
 
-java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'moremcfood' at 'net.moremcfood.MoreMCFood'!
+java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to errors, provided by 'moremcfood' at 'net.moregoldenfoods.MoreGoldenFoods'!
 	at net.fabricmc.loader.impl.FabricLoaderImpl.lambda$invokeEntrypoints$0(FabricLoaderImpl.java:413)
 	at net.fabricmc.loader.impl.util.ExceptionUtil.gatherExceptions(ExceptionUtil.java:33)
 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:411)
@@ -16,15 +16,15 @@ java.lang.RuntimeException: Could not execute entrypoint stage 'main' due to err
 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
 Caused by: java.lang.ExceptionInInitializerError
-	at knot//net.moremcfood.MoreMCFood.onInitialize(MoreMCFood.java:19)
+	at knot//net.moregoldenfoods.MoreGoldenFoods.onInitialize(MoreMCFood.java:19)
 	at net.fabricmc.loader.impl.FabricLoaderImpl.invokeEntrypoints(FabricLoaderImpl.java:409)
 	... 7 more
 Caused by: java.lang.IllegalStateException: Adding duplicate key 'ResourceKey[minecraft:item / moremcfood:golden_chicken]' to registry
 	at knot//net.minecraft.core.MappedRegistry.register(MappedRegistry.java:93)
 	at knot//net.minecraft.core.DefaultedMappedRegistry.register(DefaultedMappedRegistry.java:23)
 	at knot//net.minecraft.core.Registry.register(Registry.java:125)
-	at knot//net.moremcfood.Items.ModItems.register(ModItems.java:60)
-	at knot//net.moremcfood.Items.ModItems.<clinit>(ModItems.java:39)
+	at knot//net.moregoldenfoods.Items.ModItems.register(ModItems.java:60)
+	at knot//net.moregoldenfoods.Items.ModItems.<clinit>(ModItems.java:39)
 	... 9 more
 
 

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "C": "minecraft:cooked_chicken"
+  },
+  "result": {
+    "id": "moregoldenfoods:golden_chicken",
+    "count": 1
+  }
+}

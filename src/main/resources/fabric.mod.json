@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "moremcfood",
+  "id": "moregoldenfoods",
   "version": "${version}",
-  "name": "moremcfood",
-  "description": "",
-  "authors": [],
+  "name": "More Golden Foods",
+  "description": "A mod that adds more foods similar to Golden Apples!",
+  "authors": ["@lynnnguyen3219"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/moremcfood/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.moremcfood.MoreMCFood"
+      "net.moregoldenfoods.MoreGoldenFoods"
     ]
   },
   "mixins": [
-    "moremcfood.mixins.json"
+    "moregoldenfoods.mixins.json"
   ],
   "depends": {
     "minecraft": "~26.2",

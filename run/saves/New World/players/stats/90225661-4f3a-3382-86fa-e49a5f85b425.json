@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:used": {
+      "moregoldenfoods:golden_porkchop": 2,
+      "moregoldenfoods:golden_steak": 1,
+      "moregoldenfoods:golden_chicken": 1,
+      "moregoldenfoods:golden_mutton": 1,
+      "moregoldenfoods:golden_rabbit": 1,
+      "minecraft:white_bed": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 845,
+      "minecraft:walk_one_cm": 3602,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1468,
+      "minecraft:jump": 28,
+      "minecraft:time_since_death": 823,
+      "minecraft:sprint_one_cm": 9098,
+      "minecraft:total_world_time": 1476,
+      "minecraft:fly_one_cm": 6870,
+      "minecraft:crouch_one_cm": 128,
+      "minecraft:sneak_time": 17,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "moregoldenfoods:golden_porkchop": 1,
+      "minecraft:gold_ingot": 64,
+      "moregoldenfoods:golden_chicken": 1,
+      "moregoldenfoods:golden_rabbit": 1,
+      "moregoldenfoods:golden_mutton": 1,
+      "moregoldenfoods:golden_steak": 1,
+      "minecraft:golden_apple": 1
+    }
+  },
+  "DataVersion": 4903
+}

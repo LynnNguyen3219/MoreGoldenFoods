@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#C#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "C": "minecraft:cooked_beef"
+  },
+  "result": {
+    "id": "moregoldenfoods:golden_steak",
+    "count": 1
+  }
+}

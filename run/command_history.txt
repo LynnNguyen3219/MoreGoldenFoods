@@ -23,3 +23,6 @@
 /weather clear
 /time set minecraft:day
 /gamemode survival
+/gamemode creative
+/kill @s
+/kill @a
