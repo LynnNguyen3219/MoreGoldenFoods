@@ -7,20 +7,18 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
+import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
-import net.moregoldenfoods.Blocks.ModBlockItemIds;
-import net.moregoldenfoods.Blocks.ModBlocks;
+import net.moregoldenfoods.Blocks.ModBlockItemTooltips;
 
 import java.util.function.Function;
 
 import static net.moregoldenfoods.Blocks.ModBlocks.GOLDEN_CAKE;
 
 public class ModItems {
+
     public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT_1 = Consumables.defaultFood()
             // The duration is in ticks, 20 ticks = 1 second
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.ABSORPTION, 2400, 1, false, true, true), 1.0f))
@@ -33,15 +31,15 @@ public class ModItems {
             .onConsume(new ApplyStatusEffectsConsumeEffect(new MobEffectInstance(MobEffects.REGENERATION, 100, 1, false, true, true), 1.0f))
             .build();
 
-    public static final Item GOLDEN_CHICKEN = register(ModItemIds.GOLDEN_CHICKEN, Item::new, new Item.Properties().food(new FoodProperties.Builder()
-            .nutrition(6)
-            .saturationModifier(0.75f)
-            .alwaysEdible()
-            .build(),
+    public static final Item GOLDEN_CHICKEN = register(ModItemIds.GOLDEN_CHICKEN, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
+                    .nutrition(6)
+                    .saturationModifier(0.75f)
+                    .alwaysEdible()
+                    .build(),
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final Item GOLDEN_STEAK = register(ModItemIds.GOLDEN_STEAK, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_STEAK = register(ModItemIds.GOLDEN_STEAK, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(8)
                     .saturationModifier(0.85f)
                     .alwaysEdible()
@@ -49,7 +47,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
     ));
 
-    public static final Item GOLDEN_PORKCHOP = register(ModItemIds.GOLDEN_PORKCHOP, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_PORKCHOP = register(ModItemIds.GOLDEN_PORKCHOP, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(8)
                     .saturationModifier(0.85f)
                     .alwaysEdible()
@@ -57,7 +55,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_2
     ));
 
-    public static final Item GOLDEN_RABBIT = register(ModItemIds.GOLDEN_RABBIT, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_RABBIT = register(ModItemIds.GOLDEN_RABBIT, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(5)
                     .saturationModifier(0.7f)
                     .alwaysEdible()
@@ -65,7 +63,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final Item GOLDEN_MUTTON = register(ModItemIds.GOLDEN_MUTTON, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_MUTTON = register(ModItemIds.GOLDEN_MUTTON, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(5)
                     .saturationModifier(0.7f)
                     .alwaysEdible()
@@ -73,7 +71,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final Item GOLDEN_COOKIE = register(ModItemIds.GOLDEN_COOKIE, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_COOKIE = register(ModItemIds.GOLDEN_COOKIE, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(2)
                     .saturationModifier(0.2f)
                     .alwaysEdible()
@@ -81,7 +79,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final Item GOLDEN_PUMPKIN_PIE = register(ModItemIds.GOLDEN_PUMPKIN_PIE, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_PUMPKIN_PIE = register(ModItemIds.GOLDEN_PUMPKIN_PIE, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(8)
                     .saturationModifier(0.45f)
                     .alwaysEdible()
@@ -89,7 +87,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final Item GOLDEN_BREAD = register(ModItemIds.GOLDEN_BREAD, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+    public static final Item GOLDEN_BREAD = register(ModItemIds.GOLDEN_BREAD, ModItemTooltips::new, new Item.Properties().rarity(Rarity.UNCOMMON).food(new FoodProperties.Builder()
                     .nutrition(5)
                     .saturationModifier(0.7f)
                     .alwaysEdible()
@@ -97,7 +95,7 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
-    public static final BlockItem GOLDEN_CAKE_2D = (BlockItem) register(ModItemIds.GOLDEN_CAKE_2D, properties -> new BlockItem(GOLDEN_CAKE, properties), new Item.Properties()
+    public static final BlockItem GOLDEN_CAKE_2D = (BlockItem) register(ModItemIds.GOLDEN_CAKE_2D, properties -> new ModBlockItemTooltips(GOLDEN_CAKE, properties), new Item.Properties().rarity(Rarity.RARE)
     );
 
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
@@ -125,4 +123,5 @@ public class ModItems {
                     creativeTab.accept(ModItems.GOLDEN_BREAD);
                     creativeTab.accept(ModItems.GOLDEN_CAKE_2D);
                 });
-    }}
+    }
+}
