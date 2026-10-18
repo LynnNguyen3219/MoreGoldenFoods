@@ -17,7 +17,7 @@ More Golden Foods (MGF) is a mod that adds 9 new food items with similar functio
 <img src="images/Demo1.png">
     
 - Absorption and Regeneration effects upon consumption, with different amplifiers and durations depending on the food
-- Ability to craft all food items
+- Ability to craft all golden food items
 - The ability to eat all golden food variants at any time, just like Golden Apples!
 
 ## Installation
