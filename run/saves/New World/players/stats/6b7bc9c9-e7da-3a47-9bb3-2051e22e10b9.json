@@ -1,0 +1,17 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "moregoldenfoods:golden_cookie": 1
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 1190,
+      "minecraft:walk_one_cm": 168,
+      "minecraft:total_world_time": 1190,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 1190,
+      "minecraft:time_since_death": 1190
+    }
+  },
+  "DataVersion": 4903
+}

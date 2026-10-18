@@ -1,0 +1,20 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 890,
+      "minecraft:walk_one_cm": 424,
+      "minecraft:total_world_time": 900,
+      "minecraft:leave_game": 1,
+      "minecraft:crouch_one_cm": 114,
+      "minecraft:sneak_time": 12,
+      "minecraft:play_time": 890,
+      "minecraft:time_since_death": 890
+    },
+    "minecraft:crafted": {
+      "moregoldenfoods:golden_bread": 1,
+      "moregoldenfoods:golden_pumpkin_pie": 1
+    }
+  },
+  "DataVersion": 4903
+}

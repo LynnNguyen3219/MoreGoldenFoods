@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 1,
+      "minecraft:time_since_rest": 944,
+      "minecraft:walk_one_cm": 1985,
+      "minecraft:leave_game": 1,
+      "minecraft:play_time": 944,
+      "minecraft:jump": 7,
+      "minecraft:time_since_death": 944,
+      "minecraft:sprint_one_cm": 848,
+      "minecraft:fall_one_cm": 325,
+      "minecraft:total_world_time": 991,
+      "minecraft:fly_one_cm": 1940,
+      "minecraft:crouch_one_cm": 33,
+      "minecraft:sneak_time": 3
+    },
+    "minecraft:crafted": {
+      "moregoldenfoods:golden_chicken": 1,
+      "moregoldenfoods:golden_porkchop": 1,
+      "moregoldenfoods:golden_rabbit": 1,
+      "moregoldenfoods:golden_mutton": 1,
+      "moregoldenfoods:golden_steak": 1
+    }
+  },
+  "DataVersion": 4903
+}

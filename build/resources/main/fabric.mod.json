@@ -3,11 +3,11 @@
   "id": "moregoldenfoods",
   "version": "1.0.0",
   "name": "More Golden Foods",
-  "description": "",
-  "authors": [],
+  "description": "A mod that adds more foods similar to Golden Apples!",
+  "authors": ["@lynnnguyen3219"],
   "contact": {},
   "license": "MIT",
-  "icon": "assets/moremcfood/icon.png",
+  "icon": "icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [

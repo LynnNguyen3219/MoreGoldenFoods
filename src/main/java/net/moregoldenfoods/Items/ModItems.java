@@ -53,16 +53,40 @@ public class ModItems {
     ));
 
     public static final Item GOLDEN_RABBIT = register(ModItemIds.GOLDEN_RABBIT, Item::new, new Item.Properties().food(new FoodProperties.Builder()
-                    .nutrition(8)
-                    .saturationModifier(0.85f)
+                    .nutrition(5)
+                    .saturationModifier(0.7f)
                     .alwaysEdible()
                     .build(),
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
     public static final Item GOLDEN_MUTTON = register(ModItemIds.GOLDEN_MUTTON, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(5)
+                    .saturationModifier(0.7f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
+    public static final Item GOLDEN_COOKIE = register(ModItemIds.GOLDEN_COOKIE, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(2)
+                    .saturationModifier(0.2f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
+    public static final Item GOLDEN_PUMPKIN_PIE = register(ModItemIds.GOLDEN_PUMPKIN_PIE, Item::new, new Item.Properties().food(new FoodProperties.Builder()
                     .nutrition(8)
-                    .saturationModifier(0.85f)
+                    .saturationModifier(0.45f)
+                    .alwaysEdible()
+                    .build(),
+            GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
+    ));
+
+    public static final Item GOLDEN_BREAD = register(ModItemIds.GOLDEN_BREAD, Item::new, new Item.Properties().food(new FoodProperties.Builder()
+                    .nutrition(5)
+                    .saturationModifier(0.7f)
                     .alwaysEdible()
                     .build(),
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
@@ -88,5 +112,8 @@ public class ModItems {
                     creativeTab.accept(ModItems.GOLDEN_PORKCHOP);
                     creativeTab.accept(ModItems.GOLDEN_RABBIT);
                     creativeTab.accept(ModItems.GOLDEN_MUTTON);
+                    creativeTab.accept(ModItems.GOLDEN_COOKIE);
+                    creativeTab.accept(ModItems.GOLDEN_PUMPKIN_PIE);
+                    creativeTab.accept(ModItems.GOLDEN_BREAD);
                 });
     }}

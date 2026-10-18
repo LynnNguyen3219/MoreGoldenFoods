@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#P#",
+    "###"
+  ],
+  "key": {
+    "#": "minecraft:gold_ingot",
+    "P": "minecraft:pumpkin_pie"
+  },
+  "result": {
+    "id": "moregoldenfoods:golden_pumpkin_pie",
+    "count": 1
+  }
+}
