@@ -13,12 +13,14 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import java.util.function.Function;
 
 public class ModBlocks {
+    // For versions since 1.21.2:
     public static final Block GOLDEN_CAKE = register(
             ModBlockItemIds.GOLDEN_CAKE,
-            Block::new,
+            GoldenCakeBlock::new,
             BlockBehaviour.Properties.of()
                     .sound(SoundType.WOOL)
                     .noOcclusion()
+                    .strength(0.5f)
     );
 
     private static Block register(BlockItemId id, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties) {

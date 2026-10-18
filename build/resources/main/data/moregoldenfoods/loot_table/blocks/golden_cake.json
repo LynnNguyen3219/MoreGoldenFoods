@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "moregoldenfoods:golden_cake"
+          "name": "moregoldenfoods:golden_cake_2d"
         }
       ],
       "conditions": [

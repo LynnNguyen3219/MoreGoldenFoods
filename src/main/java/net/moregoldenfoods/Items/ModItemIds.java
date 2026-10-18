@@ -14,6 +14,7 @@ public class ModItemIds {
     public static final ResourceKey<Item> GOLDEN_COOKIE = create("golden_cookie");
     public static final ResourceKey<Item> GOLDEN_PUMPKIN_PIE = create("golden_pumpkin_pie");
     public static final ResourceKey<Item> GOLDEN_BREAD = create("golden_bread");
+    public static final ResourceKey<Item> GOLDEN_CAKE_2D = create("golden_cake_2d");
 
     public static ResourceKey<Item> create(String name) {
         // Create the item key.

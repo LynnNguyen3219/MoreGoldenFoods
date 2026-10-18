@@ -7,14 +7,18 @@ import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.component.Consumable;
 import net.minecraft.world.item.component.Consumables;
 import net.minecraft.world.item.consume_effects.ApplyStatusEffectsConsumeEffect;
+import net.moregoldenfoods.Blocks.ModBlockItemIds;
 import net.moregoldenfoods.Blocks.ModBlocks;
 
 import java.util.function.Function;
+
+import static net.moregoldenfoods.Blocks.ModBlocks.GOLDEN_CAKE;
 
 public class ModItems {
     public static final Consumable GOLDEN_FOOD_CONSUMABLE_COMPONENT_1 = Consumables.defaultFood()
@@ -93,6 +97,9 @@ public class ModItems {
             GOLDEN_FOOD_CONSUMABLE_COMPONENT_1
     ));
 
+    public static final BlockItem GOLDEN_CAKE_2D = (BlockItem) register(ModItemIds.GOLDEN_CAKE_2D, properties -> new BlockItem(GOLDEN_CAKE, properties), new Item.Properties()
+    );
+
     public static Item register(ResourceKey<Item> itemKey, Function<Item.Properties, Item> itemFactory, Item.Properties settings) {
         // Create the item instance.
         Item item = itemFactory.apply(settings.setId(itemKey));
@@ -116,6 +123,6 @@ public class ModItems {
                     creativeTab.accept(ModItems.GOLDEN_COOKIE);
                     creativeTab.accept(ModItems.GOLDEN_PUMPKIN_PIE);
                     creativeTab.accept(ModItems.GOLDEN_BREAD);
-                    creativeTab.accept(ModBlocks.GOLDEN_CAKE.asItem());
+                    creativeTab.accept(ModItems.GOLDEN_CAKE_2D);
                 });
     }}

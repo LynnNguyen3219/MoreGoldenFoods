@@ -30,3 +30,14 @@
 /gamemode creative
 /time set minecraft:day
 /gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/kill @a
+/time set minecraft:day
+/gamemode creative
+/gamemode survival
+/gamemode creative

@@ -1,0 +1,37 @@
+{
+  "stats": {
+    "minecraft:custom": {
+      "minecraft:eat_cake_slice": 7,
+      "minecraft:time_since_rest": 1816,
+      "minecraft:walk_one_cm": 6896,
+      "minecraft:leave_game": 2,
+      "minecraft:play_time": 1816,
+      "minecraft:jump": 16,
+      "minecraft:time_since_death": 1816,
+      "minecraft:sprint_one_cm": 2088,
+      "minecraft:fall_one_cm": 225,
+      "minecraft:total_world_time": 1842,
+      "minecraft:fly_one_cm": 30344,
+      "minecraft:crouch_one_cm": 296,
+      "minecraft:sneak_time": 54
+    },
+    "minecraft:used": {
+      "moregoldenfoods:golden_pumpkin_pie": 1,
+      "moregoldenfoods:golden_cake_2d": 4,
+      "moregoldenfoods:golden_porkchop": 1,
+      "moregoldenfoods:golden_steak": 1,
+      "moregoldenfoods:golden_chicken": 1,
+      "moregoldenfoods:golden_bread": 1,
+      "moregoldenfoods:golden_mutton": 1,
+      "moregoldenfoods:golden_rabbit": 1,
+      "moregoldenfoods:golden_cookie": 1
+    },
+    "minecraft:mined": {
+      "moregoldenfoods:golden_cake": 2
+    },
+    "minecraft:picked_up": {
+      "moregoldenfoods:golden_cake_2d": 2
+    }
+  },
+  "DataVersion": 4903
+}
